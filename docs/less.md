@@ -1,20 +1,12 @@
-# ProPreboot介绍
+# ProPreboot-Less介绍
 
-## 概述
+## 了解less
 
-ProPreboot 是一套完整的 `LESS`工具集。是基于`bootstrap`的前身`Preboot`和我们项目开发经验，做的进一步拓展、修改和完善。可用于我们的手机端H5、网站开发等web开发中
++ [less 中文官网](http://lesscss.cn/)
++ [less 教程](http://www.bootcss.com/p/lesscss)
 
-> Preboot从Bootstrap中吸收了更多LESS变量和mixin之后重生了，并且带来了更多的增强功能。Preboot是已知的最轻量、强大的CSS开发辅助工具，这套工具中不包含任何预置的组件（例如：button、dialog、tab等）。
-
-了解更多[Preboot](http://www.bootcss.com/p/preboot/)和 [bootcss](http://www.bootcss.com/ ) 
-
-## 为什么不使用UI框架
-
-+ 目前UI框架的局限性，兼容不太好（大部分不能兼容到IE9）
-+ 响应式框架设计模式不符（都是由手机端-PC端形式响应），我们采用的是pc端-手机端响应形式。
-+ 组件的太鸡肋
-+ 栅格系统比较局限（奇数列无法实现，栅格副作用，比较固化）
-+ 繁重，不够轻量
+>Less 是一门 CSS 预处理语言，它扩充了 CSS 语言，增加了诸如变量、混合（mixin）、函数等功能，让 CSS 更易维护、方便制作主题、扩充。
+> Less 可以运行在 Node、浏览器和 Rhino 平台上。网上有很多第三方工具帮助你编译 Less 源码。
 
 # 变量（Variables）
 

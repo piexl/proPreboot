@@ -361,6 +361,21 @@ a {
 }
 ```
 
+## 文字大小（只要适用于移动端）
+
+```less
+//文字大小
+.font-dpr(@fontSize){
+  font-size:@fontSize;
+  [data-dpr="2"] & {
+    font-size:@fontSize * 2;
+  }
+  [data-dpr="3"] & {
+    font-size:@fontSize * 3;
+  }
+}
+```
+
 ## 单行文字超出截断
 
 `@display` 为`block`或`inline-block`

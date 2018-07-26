@@ -200,6 +200,17 @@ Creattime:2017-03-26
   }
 }
 
+//文字大小
+.font-dpr(@fontSize){
+  font-size:@fontSize;
+  [data-dpr="2"] & {
+    font-size:@fontSize * 2;
+  }
+  [data-dpr="3"] & {
+    font-size:@fontSize * 3;
+  }
+}
+
 //单行文字超出隐藏
 .text-truncate(@display: block) {
   display: @display;

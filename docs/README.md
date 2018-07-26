@@ -43,6 +43,7 @@ ProPreboot 是一套完整的前端样式工具类集，分为`Less`版、`Sass
 + 可滚动的
 + 透明度(opacity)
 + 文字颜色
++ 文字大小
 + 单行文字超出截断
 + 多行文字超出截断
 + placeholder文字颜色

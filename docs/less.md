@@ -71,7 +71,7 @@ CSS中没有变量这一概念，但是在LESS或其他CSS预处理器中是存�
 @gray-dark:       lighten(@black, 20%);   // #333
 @gray:            lighten(@black, 33.5%); // #555
 @gray-light:      lighten(@black, 60%);   // #999
-@gray-lighter:    lighten(@black, 93.5%); // #eee
+@gray-lighter:    lighten(@black, 75%); // #dadbdd
 
 /*===== 品牌颜色设置 =====*/
 @brand-primary  : @blue;

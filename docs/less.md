@@ -23,21 +23,26 @@ CSS中没有变量这一概念，但是在LESS或其他CSS预处理器中是存�
 
 ## 媒体查询节点的定义
 
-媒体查询设置了小屏`xs`、`sm`、`md`、`lg`,
+媒体查询设置了小屏`xs`、`sm`、`md`、`lg`、`xl`,
 
 ```less
 /*===== 媒体查询节点 ======*/
 @screen-xs:         576px; //超小屏幕
 @screen-sm:         768px; //小屏幕
 @screen-md:         992px; //中等屏幕
-@screen-lg:         1200px; //超大屏幕
-@screen-xs-min:     @screen-xs;
-@screen-sm-min:     @screen-sm;
-@screen-md-min:     @screen-md;
-@screen-lg-min:     @screen-lg;
-@screen-xs-max:     (@screen-sm-min - 1);
-@screen-sm-max:     (@screen-md-min - 1);
-@screen-md-max:     (@screen-lg-min - 1);
+@screen-lg:         1200px; //大屏幕
+@screen-xl:         1440px; //超大屏幕
+@screen-xxl:         1680px; //超级大屏幕
+@screen-xs-min:     @screen-sm;
+@screen-sm-min:     @screen-md;
+@screen-md-min:     @screen-lg;
+@screen-lg-min:     @screen-xl;
+@screen-xl-min:     @screen-xxl;
+@screen-xs-max:     (@screen-xs-min);
+@screen-sm-max:     (@screen-sm-min - 1);
+@screen-md-max:     (@screen-md-min - 1);
+@screen-lg-max:     (@screen-lg-min - 1);
+@screen-xl-max:     (@screen-xl-min - 1);
 ```
 
 ## 颜色的定义
